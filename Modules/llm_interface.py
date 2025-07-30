@@ -1,12 +1,15 @@
 # modules/llm_interface.py
 
 import google.generativeai as genai
-from modules.config import GEMINI_API_KEY, DEFAULT_MODEL
+
+# === Direct Gemini API Key and Model Name ===
+GEMINI_API_KEY = "AIzaSyCFJDSWLGtxnaFSo7jOevCW5cdrUngo_v8"  # Replace with your real key
+DEFAULT_MODEL = "gemini-1.5-flash"  # or "gemini-pro"
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Load the model (e.g., "gemini-pro", "gemini-1.5-flash")
+# Load the model
 model = genai.GenerativeModel(DEFAULT_MODEL)
 
 def get_llm_response(prompt: str) -> str:
