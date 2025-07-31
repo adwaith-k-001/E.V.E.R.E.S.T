@@ -5,7 +5,7 @@ from Modules.memory import store_memory, retrieve_memory
 from datetime import datetime
 
 def log_retrieved_memories(memory_snippets):
-    with open("monitor_log.txt", "w", encoding="utf-8") as log_file:
+    with open("Logs/monitor_log.txt", "w", encoding="utf-8") as log_file:
         log_file.write("🧠 Last Retrieved Memories:\n\n")
         for i, mem in enumerate(memory_snippets, 1):
             log_file.write(f"{i}. {mem}\n")

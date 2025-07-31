@@ -1,0 +1,8 @@
+[2025-07-31 11:12:32] Prompt: 60, Response: 3, Total: 63, Cost: ₹0.0007
+[2025-07-31 11:13:00] Prompt: 758, Response: 441, Total: 1199, Cost: ₹0.0216
+[2025-07-31 11:17:29] Prompt: 63, Response: 4, Total: 67, Cost: ₹0.0008
+[2025-07-31 11:18:16] Prompt: 1039, Response: 484, Total: 1523, Cost: ₹0.0258
+[2025-07-31 11:22:28] Prompt: 1054, Response: 649, Total: 1703, Cost: ₹0.0311
+[2025-07-31 11:23:34] Prompt: 1699, Response: 1089, Total: 2788, Cost: ₹0.0515
+[2025-07-31 11:23:50] Prompt: 57, Response: 25, Total: 82, Cost: ₹0.0014
+[2025-07-31 11:37:23] Prompt: 819, Response: 639, Total: 1458, Cost: ₹0.0284

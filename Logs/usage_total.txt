@@ -1,0 +1,4 @@
+Total Prompt Tokens: 3629
+Total Response Tokens: 2402
+Total Tokens: 6031
+Total Cost (INR): ₹0.1124

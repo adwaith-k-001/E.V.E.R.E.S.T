@@ -10,7 +10,7 @@ while True:
     print("🧠 Monitoring: Retrieved Memory Log\n")
 
     try:
-        with open("monitor_log.txt", "r", encoding="utf-8") as f:
+        with open("Logs/monitor_log.txt", "r", encoding="utf-8") as f:
             print(f.read())
     except FileNotFoundError:
         print("monitor_log.txt not found. Has the assistant been run yet?")
