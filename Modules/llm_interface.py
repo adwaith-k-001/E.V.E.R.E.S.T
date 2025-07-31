@@ -3,7 +3,7 @@
 import google.generativeai as genai
 
 # === Direct Gemini API Key and Model Name ===
-GEMINI_API_KEY = "AIzaSyCFJDSWLGtxnaFSo7jOevCW5cdrUngo_v8"  # Replace with your real key
+GEMINI_API_KEY = "AIzaSyBFhKWQYRsmQ5YgHWsgnU41ZbtUpzMqwGA"  # Replace with your real key
 DEFAULT_MODEL = "gemini-1.5-flash"  # or "gemini-pro"
 
 # Configure Gemini
